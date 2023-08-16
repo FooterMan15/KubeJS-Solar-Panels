@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "ARR"
+
+[[mods]]
+modId = "kjssp"
+version = "${version}"
+displayName = "KubeJS: Solar Panels"
+authors = "FooterMan"
+description = '''
+A KubeJS Addon.
+'''
+#logoFile = ""
+
+[[dependencies.kjssp]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.kjssp]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.kjssp]]
+modId = "architectury"
+mandatory = true
+versionRange = "[6.5.77,)"
+ordering = "AFTER"
+side = "BOTH"
