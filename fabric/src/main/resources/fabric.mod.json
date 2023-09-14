@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "kjssp",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "KubeJS: Solar Panels",
+  "description": "Adds Solar Panel customization to KubeJS Block Registry",
   "authors": [
-    "Me!"
+    "FooterMan"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/FabricMC/fabric-kjssp"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "AAR",
+  "icon": "assets/kjssp/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.kjssp.fabric.ExampleModFabric"
+      "dev.kjssp.fabric.KJSSPFabric"
     ]
   },
   "depends": {
